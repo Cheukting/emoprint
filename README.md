@@ -15,3 +15,13 @@ You sure want the most unless Python library? Okay, wish granted 🥳 Just simpl
 Just import `print` from emoprint to override the wonderful buildin print that the Python gave you (Why are you doing that seriously? 😅)
 
 `from emoprint import print`
+
+## Developement enviroment setup
+
+Cloning this repo
+
+Install [poetry](https://python-poetry.org/docs/#installation)
+
+`poetry init`
+
+
