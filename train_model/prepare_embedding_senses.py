@@ -14,7 +14,6 @@ except:
 print("==========")
 print("**Bert embedding is in process")
 bert = Bert("https://tfhub.dev/google/bert_multi_cased_L-12_H-768_A-12/1")
-bert.save("bert_model/")
 start = time.time()
 count = 0
 try:
