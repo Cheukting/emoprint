@@ -6,5 +6,4 @@ train_model:
 	cd ../
 
 deploy_model:
-	cp -a train_model/bert_model/. emoprint/bert_model/
-	cp train_model/pickled/embedded_vector_map.p emoprint/pickled/embedded_vector_map.p
+	cp -a train_model/pickled/. emoprint/pickled/
