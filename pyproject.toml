@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "emoprint"
-version = "0.1.1"
+version = "0.2.0"
 license = "MIT"
 description = "'The most uesless Python library ever' -- Cheuk 😅 Emoprint let you have more fun with your buildin print function by adding a random emoji to whatever you are printing!"
 authors = ["Cheukting <cheukting.ho@gmail.com>"]
