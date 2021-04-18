@@ -13,8 +13,6 @@ class Capturing(list):
         del self._stringio    # free up some memory
         sys.stdout = self._stdout
 
-def test_version():
-    assert __version__ == '0.1.0'
 
 def test_emoprint():
     with Capturing() as output:
