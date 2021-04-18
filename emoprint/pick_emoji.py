@@ -1,3 +1,7 @@
+import tensorflow as tf
+
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+
 from easybert import Bert
 from scipy import spatial
 import pickle
@@ -17,6 +21,3 @@ def pick_emoji(input_str):
                 pick = emoji
                 min_dist = distance
     return pick
-
-# pricked = pick_emoji("Today I am a bit confused")
-# print(pricked)
