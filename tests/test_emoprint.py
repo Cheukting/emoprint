@@ -1,5 +1,5 @@
-from emoprint import __version__
-from emoprint import rand_print, nlp_print
+from emoprint.emoprint import print as rand_print
+from emoprint.nlp_emoprint import print as nlp_print
 from io import StringIO
 import sys
 
